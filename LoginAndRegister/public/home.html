@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background-color: #23242a;
+            
+        }
+        .box{
+            position: relative;
+            top: 200px;
+            height: 100px;
+            width: 300px;
+            background: linear-gradient(132deg, #F4D03F 0%, #16A085 100%);
+            box-shadow:rgb(80 199 199) 4px 4px 100000px 0px;
+            margin: 0 auto;
+            border-radius: 10px;
+            padding: 0 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .text{
+            font-family: sans-serif;
+            border-radius: 10px;
+            line-height: 50px;
+            width: 120px;
+            color: black;
+            font-weight: 700;
+            text-decoration: none;
+            text-align: center;
+        }
+        .text1{
+            background-color: #21D4FD;
+            background-image: linear-gradient(45deg, #21D4FD 0%, #B721FF 100%);
+
+            
+        }
+        .text1:hover{
+            background-color: #FF9A8B;
+            background-image: linear-gradient(225deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+        }
+        .text2{
+            background-color: #FF9A8B;
+            background-image: linear-gradient(225deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+        }
+        .text2:hover{
+            background-color: #21D4FD;
+            background-image: linear-gradient(45deg, #21D4FD 0%, #B721FF 100%);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+            <a href="/login"  class="text text1">Login</a>
+            <a href="/register" class="text text2">Register</a>
+    </div>
+</body>
+</html>
